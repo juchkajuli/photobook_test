@@ -1,0 +1,539 @@
+body {
+    font-family: sans-serif, 'Roboto';
+    font-style: normal;
+    font-weight:main  normal;
+    margin: 0;
+    padding: 0;
+} 
+/* header */
+.header {
+    justify-content: flex-start;
+}
+.logo {
+    width: 64px;
+    height: 57px;
+    position: relative;
+    margin-left: 20px;
+}
+.name-logo {
+    margin-left: 10px;
+    font-family:'Pacifico', cursive ;
+    font-size: 32px;
+    font-weight: bold;
+    color: #434343;
+    position: relative;
+}
+.search {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+.menu-icon:last-child {
+    margin-right: 75px;
+    display: none;
+}
+/* блок контента */
+.container {
+  width: 100%; 
+    max-height: max-content;
+    margin: auto;
+}
+.main-content {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex; 
+    width: 1024px;
+    margin: auto;
+    height: 90%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    margin-top: 3%;
+}
+.main-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_phone {
+    display: flex;
+}
+.image_bg{
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+/* оформление текста */
+
+.text-description {
+text-align: center;
+}
+
+#h1 {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Pacifico', cursive;
+    color: #434343;
+}
+
+/* main content правая сторона */
+.right-block {
+    width: 350px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: #EFEFEF 2px solid;
+    padding-top: 3%;
+}
+.form-bl {
+    width: inherit;
+}
+.login , .passw {
+    margin-bottom: 30px;
+}
+.logotype_name {
+    display: none;
+}
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+.form_ {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    width: inherit;
+    height: 210px;
+  /*  padding-left: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-field, .password_{
+    border: #C8C8C8 2px solid;
+    border-radius: 3px;
+    width: 275px;
+}
+
+.input-login, .password_log {
+    width: 268px;
+    height: 37px;
+    padding-left: 7px;
+    border: none;
+    background-color: snow;
+}
+.but_inp {
+    margin-bottom: 4%;
+}
+
+.button_input {
+    width: 268px;
+    height: 37px;
+    border-radius:5px ;
+    border: none;
+    background-color: #6BCDFD;
+
+}
+.input_but {
+    color: white;
+}
+
+.mem_passw {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.password_memory {
+    text-decoration: none;
+    color: #434343;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.block_reg {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-top: #EFEFEF 2px solid;
+    margin-top: 8%;
+}
+.pad_block {
+    display: flex;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+.reg_ques {
+    margin-right: 7px;
+}
+.regis {
+    text-decoration: none;
+    color: #699CFC;
+}
+
+
+/*.mobile_phone {
+    background-image: url(src\components\img\phones.png);
+    background-size: 454px 618px;
+    background-repeat: no-repeat;
+    height: 620px;
+    display: flex;
+ } */
+ #background_mob {
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 149px;
+ }
+   img {
+     left:0;
+     transition: opacity 1s ease-in-out;
+     } 
+     @keyframes cf3FadeInOut {
+         0% {
+             opacity: 1;
+         }
+         45% {
+             opacity: 1;
+         }
+         55% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 0;
+         }
+     }
+     .cart_1, .cart_2 , .cart_3 {
+         animation-name: cf3FadeInOut;
+         animation-timing-function: ease-in-out;
+         animation-iteration-count: infinite;
+         animation-direction: alternate; 
+         width: 243px;
+         height: 430px;
+         position: absolute;
+         border-radius: 2px;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+     }
+     .cart_1 {
+        animation-delay: 0s;
+        animation-duration: 0s;
+        background-image: url(https://i.pinimg.com/originals/be/4c/65/be4c6544c04ab59720ebae74f437370f.jpg);
+        
+     }
+     .cart_2 {
+         animation-delay: 10s; 
+         animation-duration: 10s;
+         background-image: url(https://i.pinimg.com/736x/95/05/e4/9505e421946464d2d31c43920919dbb0.jpg);
+     }
+      
+     .cart_3 {
+         animation-delay: -5s;
+         animation-duration: 10s;
+         background-image: url(https://i.pinimg.com/736x/cb/73/ec/cb73eca10474a672284b11cfa6b04520--berlin.jpg);
+     }
+
+     /* footer */
+.footer {
+    margin-top: 10%;
+    height : 50px;
+    width: 100%;
+}
+.footer_menu {
+    width: 100%;
+}
+.list_foot { 
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.footer_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    box-sizing: border-box;
+    display: grid;
+}
+.link_foot {
+    text-decoration: none;
+    font-family: sans-serif, 'Open Sans';
+    color: #292929;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    
+     header {
+        display: none;
+    }
+        .content {
+        margin: auto;
+        align-items: flex-start;
+        height: auto;
+        width: 100%;
+    }
+    .mobile_phone {
+        width: 60%;
+    }
+    ._phone {
+        width: 100%;
+    }
+    #background_mob {
+        margin-top: 63px;
+        margin-left: 97px;
+    }
+    .cart_1, .cart_2, .cart_3 {
+        width: 159px;
+        height: 280px;
+    }
+    .right-block {
+        height: max-content;
+        width: 50%;
+        margin-top: 12%;
+        background-color: snow;
+    }
+    .form-input {
+        height: inherit;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .form_ {
+        width: 100%;
+        height: 90%;
+        justify-content: center;
+    }
+    ._logo_ {
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+    .login, .passw {
+        margin-bottom: 5%;
+        width: 80%;
+    }
+    .main-content {
+        padding-bottom: 0;
+        width: 100%;
+        height: 90%;
+    }
+    .logotype_name {
+        display: contents;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        color: #434343;
+        flex: 0.8;
+    }
+    .block_reg{
+        width: 100%;
+    }
+    .pad_block{
+        font-size: 12px;
+        margin-top: 9px;
+        align-items: center;
+    }
+    .reg_ques {
+        margin: 5px;
+    }
+    .login-field, .password_ {
+        width: 95%;
+    }
+    .input-login, .password_log {
+        font-size: 12px;
+        width: 100%;
+        background-color: white;
+    }
+    .but_inp {
+        width: 75%;
+    }
+    .button_input{
+        width: 93%;
+        font-size: 14px;
+    }
+    .password_memory {
+        font-size: 12px;
+    }
+    
+}
+
+/* @media (max-width: 920px) {
+    .login-field, .password_ {
+        width: 30vw;
+    }
+.input-login, .password_log {
+    width: 29vw;
+    height: 5.5vh;
+}
+.button_input {
+    width: 30vw;
+    height: 5vh;
+}
+} */
+@media screen and (max-width: 568px) {
+    .main-content {
+        padding-top: 5%;
+    }
+    .mobile_phone {
+        display: none;
+    }
+    .header__cont {
+        display: none;
+    }
+    .container {
+        width: 95%;
+        height: 95%;
+    }
+    .input_vue {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .right-block {
+        padding: 0;
+        width: 70%;
+        margin: auto;
+    }
+    .input-login, .password_log {
+        width: 100%;
+        height: 40px;
+        padding-left: 2%;
+    }
+    .login-field, .password_ {
+        width: 100%;
+    }
+    .login, .passw, .but_inp {
+        width: 90%;
+    }
+    .button_input {
+        width: 100%;
+    }
+    .content {
+        height: 100%;
+        width: 100%;
+    }
+    ._logo_ {
+        margin-bottom: 4%;
+    }
+    .footer_content {
+        display: flex;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list_foot {
+        margin-left: 0;
+    }
+    .footer {
+        margin-top: 3%;
+    }
+    .footer_menu {
+        margin-left: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    .link_foot {
+        font-size: 13px;
+    }
+    .footer {
+        position: relative;
+        margin-top: 8%;
+    }
+    .footer_content, .footer_menu {
+       grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    .footer_content {
+        display: flex;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    .footer_menu {
+        display: flex;
+        position: relative;
+        flex-shrink: 0;
+        padding: 0;
+        margin-left: 28%;
+        width: 80%;
+    }
+    .list_foot {
+        max-width: 40%;
+        margin: 0;
+        justify-content: center;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 12%;
+    }
+
+    .li_footer {
+        display: inline-block;
+        margin-left: 10px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .form-input {
+        margin: auto;
+    }
+}
+@media (max-width: 360px) {
+    .logotype_name {
+        font-size: 30px;
+    }
+.login, .passw {
+    margin-bottom: 15%;
+    height: 5vh;
+}
+.input-login, .password_log {
+    width: 100%;
+    height: 37px;
+    font-size: 12px;
+    padding-left: 3px;
+}
+.button_input{
+    width: 100%;
+    height: 30px;
+}
+.input_but {
+    font-size: 14px;
+}
+.password_memory, .pad_block {
+    font-size: 12px;
+}
+._logo_ {
+    padding-bottom: 2px;
+}
+.right-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pad_block {
+    font-size: 12px;
+}
+.footer_menu {
+    width: 95%;
+}
+.link_foot {
+    font-size: 12px;
+}
+}
