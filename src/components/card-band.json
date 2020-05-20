@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q000",
+    "name": "Olivia",
+    "login": "orange",
+    "image": "https://avatars.mds.yandex.net/get-zen_doc/1648379/pub_5d691818aad43600ad82cc7f_5d6919ff92414d00aeba9cd6/scale_1200"
+
+  },
+  {
+    "id": "q001",
+    "name": "Margaret",
+    "login": "lemon",
+    "image": "https://i.pinimg.com/originals/77/a9/bc/77a9bc62ed2c421f66023aded6eee116.jpg"
+  },
+  {
+    "id": "q002",
+    "name": "Sony",
+    "login": "banana",
+    "image": "https://i.pinimg.com/736x/5d/0e/e6/5d0ee6e8054d5eca27d6f4b8e1fae501.jpg"
+  }
+]
