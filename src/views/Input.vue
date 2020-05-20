@@ -31,7 +31,6 @@
                               <div class="passw">
                                   <div class="password_">
                                       <label class="inp_passw">
-                                         
                                           <input class="password_log" aria-label="Пароль" aria-required="true"
                                           name="password" type="password" value="" placeholder="Пароль">
                                       </label>
