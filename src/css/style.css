@@ -57,11 +57,7 @@ background-color: #6ACCCB;
     border-radius: 100px;
     width: 170px;
     height: 36px;
-    padding-left: 6%;
-    background-image: url(/../img/search.svg);
-    background-repeat: no-repeat;
-    background-position: 13px ;
-    background-size: 21px 20px;
+    padding-left: 5%;
     margin-left: 20%;
 }
 .menu-list {
@@ -620,6 +616,8 @@ margin: 0;
 }
 .left_block {
     width: inherit;
+    margin: auto;
+    padding-top: 10px;
 }
 .head-public, .comment-box {
     width: 100%;
@@ -689,5 +687,18 @@ margin-left: 0;
     display: inherit;
     align-items: inherit;
     justify-content: inherit;
+}
+.public__photo {
+    border: 1px solid gainsboro;
+    border-radius: 1px;
+}
+.user-signa {
+    margin: 1px 10px 5px 5px;
+}
+.signa-log, .signa {
+    margin: 1px 2px 3px 4px;
+}
+.add-comment {
+    margin: 0 10px;
 }
 }
