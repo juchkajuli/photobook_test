@@ -6,11 +6,11 @@
                      <div class="top_section">
                         <div class="img__login">
                            <img src="@/components/img/avatar_woman.svg" alt="avatar-user" id="image_user">
-                               <div class="media__add">
-                                   <input type="file" name="file" class="add_media" multiple id="file-input">
+                           <div class="media__add">
+
                                  <label id="file-input"> Добавить фото или видео </label>
-                                 <img class="icon_plus" src="@/components/img/plus_icon.svg">
-                                </div>
+                                 <img class="icon_plus" src="@/components/img/plus_icon.svg"> </div>
+
                         </div>
 
                          <div class="user__description">
@@ -66,4 +66,13 @@
 <style>
     @import "../css/css-4/style.css";
     @import "../css/css-4/reset.css";
+
+    .media__add {
+        display: flex;
+        align-items: center;
+    }
+    #file-input {
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+    }
 </style>
